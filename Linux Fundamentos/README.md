@@ -1,30 +1,32 @@
+# Linux: Introdução ao Sistema Operacional
 
-## Linux: Introdução ao Sistema Operacional
+<br/>
 
-**Terminal, Shell ou Console** é uma linha de comando onde se executa programas específicos do Linux
+**CTRL+ALT+T** &emsp; &emsp; &emsp; &emsp; abre o terminal
 
-**CTRL + ALT + T**  abre o terminal
+**man** &emsp; &emsp; &emsp; &emsp; exibe o manual de um comando específico
 
-**man**              exibe o manual de um comando específico
+**pwd** &emsp; &emsp; &emsp; &emsp; exibe o caminho do diretório/local atual
 
-**pwd**              exibe o caminho do diretório/local atual
+**ls** &emsp; &emsp; &emsp; &emsp; exibe a lista de arquivos e diretórios de uma pasta
 
-**ls**               exibe a lista de arquivos e diretórios de uma pasta
-**ls -l**            exibe a lista, detalhes e privilégios de arquivos e diretórios de uma pasta
+**ls -l** &emsp; &emsp; &emsp; &emsp; exibe a lista, detalhes e privilégios de arquivos e diretórios de uma pasta
 
-**cd**               muda para um diretório específico
-**cd ..**            retorna para o diretório anterior/pai do diretório atual
-**cd /**             muda para um diretório raiz
+**cd** &emsp; &emsp; &emsp; &emsp; muda para um diretório específico
 
-**mkdir**            cria um diretório
+**cd ..** &emsp; &emsp; &emsp; &emsp; retorna para o diretório anterior ao diretório atual
 
-**mv**               move um arquivo ou diretório. Pode ser usado para renomear
+**cd /** &emsp; &emsp; &emsp; &emsp; muda para um diretório raiz
 
-**touch**            cria um arquivo vazio
+**mkdir** &emsp; &emsp; &emsp; &emsp; cria um diretório
 
-**cp**               copia um arquivo ou diretório
+**mv** &emsp; &emsp; &emsp; &emsp; move um arquivo ou diretório. Pode ser usado para renomear
 
-**rm**               remove um arquivo ou diretório
+**touch** &emsp; &emsp; &emsp; &emsp; cria um arquivo vazio
+
+**cp** &emsp; &emsp; &emsp; &emsp; copia um arquivo ou diretório
+
+**rm** &emsp; &emsp; &emsp; &emsp; remove um arquivo ou diretório
 
 
 
@@ -39,8 +41,11 @@
 
 
 
+<br/><br/><br/>
           
-## Linux: Diretórios e Comandos Essenciais
+# Linux: Diretórios e Comandos Essenciais
+
+<br/>
 
 
 
@@ -52,56 +57,67 @@
 
 
 
-## Linux: Fundamentos de Redes e Comandos Avançados
+<br/><br/><br/>
 
-**ifconfig**
+# Linux: Fundamentos de Redes e Comandos Avançados
 
-**hostname**
-**hostname -i**
-**hostname -I**
+<br/>
 
-**ping**
+**ifconfig** &emsp; &emsp; &emsp; &emsp; 
 
-**traceroute**
+**hostname** &emsp; &emsp; &emsp; &emsp; 
 
-**finger**
+**hostname -i** &emsp; &emsp; &emsp; &emsp; 
 
-**w**
+**hostname -I** &emsp; &emsp; &emsp; &emsp; 
 
-**whois**
+**ping** &emsp; &emsp; &emsp; &emsp; 
 
+**traceroute** &emsp; &emsp; &emsp; &emsp; 
 
-**history**          mostra o histórico de ações do terminal
-**history -c**       limpa o histórico do terminal
+**finger** &emsp; &emsp; &emsp; &emsp; 
 
-**alias**            especifica um determinado alias para um comando *Ex: alias hh=history*
+**w** &emsp; &emsp; &emsp; &emsp; 
 
-**nl**               exibe o arquivo e o número de linhas que ele contém *Ex: nl aularedes.txt*
+**whois** &emsp; &emsp; &emsp; &emsp; 
 
-**wc -l**            exibe o número de linhas em um arquivo, incluindo as linhas em branco
-**wc -w**            exibe o número de palavras em um arquivo
-**wc -c**            exibe o número de bytes de um arquivo
-**wc -m**            exibe o número de caracteres em um arquivo
+**history** &emsp; &emsp; &emsp; &emsp; mostra o histórico de ações do terminal
 
-**ls -a**            exibe todos os arquivos de um diretório, incluindo os ocultos
-**ls -F**            exibe os arquivos de um diretório com / no final
+**history -c** &emsp; &emsp; &emsp; &emsp; limpa o histórico do terminal
 
-**cmp**              compara dois arquivos byte por byte
+**alias** &emsp; &emsp; &emsp; &emsp; especifica um determinado alias para um comando. &emsp; *Ex: alias hh=history*
 
-**diff**             compara dois arquivos linha por linha
+**nl** &emsp; &emsp; &emsp; &emsp; exibe o arquivo e o número de linhas que ele contém. &emsp; *Ex: nl aularedes.txt*
 
-**sort -n**          organiza as linhas de um arquivo em ordem numerica, de acordo com o valor de string
+**wc -l** &emsp; &emsp; &emsp; &emsp; exibe o número de linhas em um arquivo, incluindo as linhas em branco
 
-**last reboot**      exibe a informação de todas as reinicializações do sistema
+**wc -w** &emsp; &emsp; &emsp; &emsp; exibe o número de palavras em um arquivo
 
-**route -n**         exibe as informações de Tabela de Roteamento IP do Kernel
+**wc -c** &emsp; &emsp; &emsp; &emsp; exibe o número de bytes de um arquivo
 
-**time**             exibe o tempo de processo de um comando
+**wc -m** &emsp; &emsp; &emsp; &emsp; exibe o número de caracteres em um arquivo
 
-**uptime**           exibe a quanto tempo o sistema esta rodando
+**ls -a** &emsp; &emsp; &emsp; &emsp; exibe todos os arquivos de um diretório, incluindo os ocultos
 
-**cowsay**           exibe uma string em um texto-imagem de uma vaca *Ex: cowsay "Linux é Bom"*
-					 _____________
+**ls -F** &emsp; &emsp; &emsp; &emsp; exibe os arquivos de um diretório com / no final
+
+**cmp** &emsp; &emsp; &emsp; &emsp; compara dois arquivos byte por byte
+
+**diff** &emsp; &emsp; &emsp; &emsp; compara dois arquivos linha por linha
+
+**sort -n** &emsp; &emsp; &emsp; &emsp; organiza as linhas de um arquivo em ordem numerica, de acordo com o valor de string
+
+**last reboot** &emsp; &emsp; &emsp; &emsp; exibe a informação de todas as reinicializações do sistema
+
+**route -n** &emsp; &emsp; &emsp; &emsp; exibe as informações de Tabela de Roteamento IP do Kernel
+
+**time** &emsp; &emsp; &emsp; &emsp; exibe o tempo de processo de um comando
+
+**uptime** &emsp; &emsp; &emsp; &emsp; exibe a quanto tempo o sistema esta rodando
+
+**cowsay** &emsp; &emsp; &emsp; &emsp; exibe uma string em um texto-imagem de uma vaca. &emsp; *Ex: cowsay "Linux é Bom"*
+
+<pre>					 _____________
 					< Linux é Bom >
 					 -------------
 					        \   ^__^
@@ -110,56 +126,90 @@
 					                ||----w |
 					                ||     ||
 
-
-**cmatrix**          exibe o efeito matrix no terminal
-
-**init 0**           desliga o sistema
-**telinit 0**        desliga o sistema
-**halt**             desliga o sistema através de autenticação
-
-**seq**              exibe uma sequencia de números no terminal *Ex: seq 1 10*
-
-**shuf**             exibe uma permutação aleatória *5 números entre 0 a 80. Ex: shuf -i 0-80 -n5*
-
-**whereis**          exibe o caminho de um comando e seu manual
-**which**            exibe o caminho de um comando
+</pre>
 
 
+<br/>
+
+**cmatrix** &emsp; &emsp; &emsp; &emsp; exibe o efeito matrix no terminal
+
+**init 0** &emsp; &emsp; &emsp; &emsp; desliga o sistema
+
+**telinit 0** &emsp; &emsp; &emsp; &emsp; desliga o sistema
+
+**halt** &emsp; &emsp; &emsp; &emsp; desliga o sistema através de autenticação
+
+**seq** &emsp; &emsp; &emsp; &emsp; exibe uma sequencia de números no terminal. &emsp; *Ex: seq 1 10*
+
+**shuf** &emsp; &emsp; &emsp; &emsp; exibe uma permutação aleatória.  &emsp; *Ex: shuf -i 0-80 -n5*
+
+**whereis** &emsp; &emsp; &emsp; &emsp; exibe o caminho de um comando e seu manual
+
+**which** &emsp; &emsp; &emsp; &emsp; exibe o caminho de um comando
 
 
-## Linux: Gerenciamento de Pacotes
-
-
-**Gerenciador APT**
-
-**apt install**      instala um pacote e as dependências
-**apt update**       atualiza a lista de pacotes com as versões mais novas
-**apt upgrade**      atualiza os pacotes com as novas versões
-**apt remove**       remove um pacote
-**apt autoremove**   remove pacotes que não são mais necessários
+<br/><br/><br/>
 
 
 
-**Gerenciador DPKG**
-
-**dpkg -i**          instala um pacote com extensão .deb
-**dpkg -I**          exibe as informações do pacote com extensão .deb
-**dpkg -r**          remove o pacote. É necessário usar o nome do pacote que se encontra nas informações
+# Linux: Gerenciamento de Pacotes
 
 
+### **Gerenciador APT** 
 
-**Gerenciador RPM**
+<br/>
 
-**rpm -ivh**          instala um pacote com extensão .rpm
-**rpm -U**            atualiza um pacote .rpm
-**rpm -e**            remove um pacote .rpm
+**apt install** &emsp; &emsp; &emsp; &emsp; instala um pacote e as dependências
+
+**apt update** &emsp; &emsp; &emsp; &emsp; atualiza a lista de pacotes com as versões mais novas
+
+**apt upgrade** &emsp; &emsp; &emsp; &emsp; atualiza os pacotes com as novas versões
+
+**apt remove** &emsp; &emsp; &emsp; &emsp; remove um pacote
+
+**apt autoremove** &emsp; &emsp; &emsp; &emsp; remove pacotes que não são mais necessários
 
 
-**Gerenciador YUM**
+<br/>
 
-**yum install**      instala um pacote e as dependências do pacote .rpm
-**yum update**       atualiza o pacote com as versão mais nova
-**yum remove**       remove o pacote
+
+### **Gerenciador DPKG**
+
+<br/>
+
+**dpkg -i** &emsp; &emsp; &emsp; &emsp; instala um pacote com extensão .deb
+
+**dpkg -I** &emsp; &emsp; &emsp; &emsp; exibe as informações do pacote com extensão .deb
+
+**dpkg -r** &emsp; &emsp; &emsp; &emsp; remove o pacote. É necessário usar o nome do pacote que se encontra nas informações
+
+
+<br/>
+
+
+### **Gerenciador RPM**
+
+<br/>
+
+**rpm -ivh** &emsp; &emsp; &emsp; &emsp; instala um pacote com extensão .rpm
+
+**rpm -U** &emsp; &emsp; &emsp; &emsp; atualiza um pacote .rpm
+
+**rpm -e** &emsp; &emsp; &emsp; &emsp; remove um pacote .rpm
+
+<br/>
+
+
+### **Gerenciador YUM**
+
+<br/>
+
+**yum install** &emsp; &emsp; &emsp; &emsp; instala um pacote e as dependências do pacote .rpm
+
+**yum update** &emsp; &emsp; &emsp; &emsp; atualiza o pacote com as versão mais nova
+
+**yum remove** &emsp; &emsp; &emsp; &emsp; remove o pacote
+
 
 
 
