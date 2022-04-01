@@ -270,7 +270,9 @@
 
  &emsp; &emsp; **ls -lh** &emsp; &emsp; &emsp; &emsp; lista os arquivos e exibe as permissões de leitura, escrita e execução do diretório.
 
+ &emsp; &emsp; **chmod xxx arquivo** &emsp; &emsp; &emsp; &emsp; modifica as permissões de um arquivo. 
  <pre>
+<p align="justify"> O chmod usa o *Modo Octal*, onde xxx são três números que vão de 0 a 7, seguindo as permissões da tabela abaixo.</p>
 	<table align="center">
 		<tbody>
 			<tr align="center">
