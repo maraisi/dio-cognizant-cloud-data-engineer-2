@@ -272,14 +272,12 @@
 
  <pre>
 	<table align="center">
-		<thead>
+		<tbody>
 			<tr align="center">
 				<td colspan="3">Owner</td>
 				<td colspan="3">Group</td>
 				<td colspan="3">Other</td>
 			</tr>
-		</thead>
-		<tbody>
 			<tr>
 				<td>R</td>
 				<td>W</td>
@@ -358,7 +356,7 @@
 
 <br/>
 
- &emsp; &emsp; **tar -cf arquivo.tar arquivo1 arquivo2 ...** &emsp; &emsp; &emsp; &emsp; cria um único arquivo de vários arquivos. O arquivo criado pode ser compactado com o gzip (**arquivo.tar.gz**) (-cf = create file)
+ &emsp; &emsp; **tar -cf arquivo.tar arquivo1 arquivo2 ...** &emsp; &emsp; &emsp; &emsp; cria um único arquivo de vários arquivos.
 
  &emsp; &emsp; **tar -xvf arquivo.tar.gz** &emsp; &emsp; &emsp; &emsp; descompacta e desarquiva os arquivos
 
