@@ -42,6 +42,7 @@ else:
 
 
 
+
 a = int(input('Primeiro bimestre: '))
 if a > 10:
     a = int(input('Você digitou errado. Primeiro bimestre: '))
