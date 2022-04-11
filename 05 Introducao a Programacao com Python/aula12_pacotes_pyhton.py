@@ -39,5 +39,5 @@ if __name__ == '__main__':
     #retorna_dados_cep(31330110)
     #retorna_dados_pokemon('pikachu')
 
-    codigo_font = retorna_response('https://globallabs.academy')
+    codigo_font = retorna_response('https://google.com/')
     print(codigo_font)
