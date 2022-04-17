@@ -53,15 +53,92 @@
 - Não Repúdio: princípio que visa evitar que uma entidade negue suas ações em um sitema
 
 <br><br>
+
 ## ICMP
 
-<p>O ICMP (Internet Control Message Protocol) é um protocolo integrante do Protocolo IP utilizado para fornecer relatórios de erros à fonte original.</p>
+<p align="center">O ICMP (Internet Control Message Protocol) é um protocolo integrante do Protocolo IP utilizado para fornecer relatórios de erros à fonte original.</p>
 
 <br><br>
 
 ## PING
 
-<p>O PING é uma ferramenta que usa o protocolo ICMP para testar a conectividade entre nós. É um comando que consiste no envio de pacotes para o equipamento de destino e na "escuta" das respostas. <i>(Contempla o princípio da DISPONIBILIDADE)</i></p>
+<p align="center">O PING é uma ferramenta que usa o protocolo ICMP para testar a conectividade entre nós. É um comando que consiste no envio de pacotes para o equipamento de destino e na "escuta" das respostas. <i>(Contempla o princípio da DISPONIBILIDADE)</i></p>
 
 <br>
 <pre align="center">ping -n 6 www.google.com</pre>
+
+<br><br>
+
+## Biblioteca OS
+
+<p align="center"> Fornece de maneira simples o acesso de funcionalidades que são dependentes do sistema operacional.</p>
+
+
+<br><br>
+
+## Biblioteca SOCKET
+
+<p align="center"> Fornece acesso de baixo nível à interface de rede. O sistema operacional fornece a API socket que relaciona o programa com a rede. </p>
+
+
+
+<br><br>
+
+## Protocolo TCP
+
+<p align="center"> O TCP(Transmission Control Protocol) ou Protocolo de Controle de Transmissão é um dos protocolos de comunicação, que dão suporte a rede global Internet, verificando se os dados são enviados na sequência correta e sem erros. </p>
+
+<p align="center"><i>(Contempla o princípio da INTEGRIDADE)</i></p>
+
+<br><br>
+
+## Protocolo UDP
+
+<p align="center"> O UDP(User Datagram Protocol) ou Protocolo de Datagrama de Usuário é um protocolo simples da camada de transporte que permite que a aplicação envie um datagrama dentro num pacote IPv4 ou IPv6 a um destino, porém sem qualquer tipo de garantia que o pacote chegue corretamente.</p>
+
+<p align="center"><i>(Contempla o princípio da DISPONIBILIDADE)</i></p>
+
+<br><br>
+
+
+## Biblioteca RANDOM
+
+<p align="center"> Implementa geradores de números pseudoaleatóprios para vária distribuições.
+Será utilizada no gerador de senhas para randomizar letras e números e a cada execução do programa gerar uma nova senha aleatória.</p>
+
+<p align="center"><i>(Contempla os princípios da AUTENTICAÇÃO e da CONFIDENCIALIDADE)</i></p>
+
+<br><br>
+
+## HASH
+
+<p align="center">Identificador único gerado atravpes de um algoritmo que vai analisar byte a byte de determinado dados para gerar de forma única, um determinado código que só aquele arquivo terá. Se neste mesmo arquivos um único bit for alterado o hash gerado será diferente.</p> 
+
+[Hash MD5](https://md5decrypt.net/en)
+
+<br><br>
+
+
+## Biblioteca HASHLIB
+
+<p align="center"> Implementa uma interface comum para muitos algoritimos de hash seguro com SHA1, SHA256, MD5 entre outros.</p>
+
+<br><br>
+
+## Multithreading
+
+<p align="center"> Thread é o processo e no ambiente multithread, cada processo pode responder a várias solicitações concorrentemente ou mesmo simultaneamente.</p>
+
+<br><br>
+
+## Biblioteca Threading
+
+<p align="center"> Constrói interfaces de alto nível para processamento usando o módulo Thread, de mais baixo nível, ou seja, relação direta com o processador.</p>
+
+<br><br>
+
+## Biblioteca ipaddress
+
+<p align="center"> Tem capacidade criar, manipular endereços IP do tipo IPv4, IPv6 e até redes inteiras.</p>
+
+<br><br>
