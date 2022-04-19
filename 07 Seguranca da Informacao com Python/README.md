@@ -142,3 +142,34 @@ Será utilizada no gerador de senhas para randomizar letras e números e a cada 
 <p align="center"> Tem capacidade criar, manipular endereços IP do tipo IPv4, IPv6 e até redes inteiras.</p>
 
 <br><br>
+
+
+## Wordlists
+
+<p align="center"> Sâo arquivos contendo uma palavra por linha. São utilizados em ataques de força bruta, como quebra de autenticação (ataque de dicionário). Pode ser usada para testar a autenticação e confidencialidade de um sistema.</p>
+
+<br><br>
+
+## Biblioteca Itertools
+
+<p align="center"> Fornece condições para iterações como permutação e combinação. Pode ser usada para gerar uma lista com vários caracteres diferentes e sem repetições de palavras.</p>
+
+<br><br>
+
+## Web Scraping
+
+<p align="center"> Um web scraper é uma ferramenta de coleta de dados web, uma forma de mineração que permite a extração de dados de sites da web convertendo-os em informações estruturadas para posterior análise.</p>
+
+<br><br>
+
+## Biblioteca BeatifulSoup
+
+<p align="center"> Biblioteca de extração de dados de arquivos HTML e XML.</p>
+
+<br><br>
+
+## Biblioteca requests
+
+<p align="center"> Permite o envio de solicitações HTTP em Pyhton.</p>
+
+<br><br>
