@@ -76,7 +76,7 @@
 
 <br><br>
 
-## Biblioteca SOCKET
+## Biblioteca Socket
 
 <p align="center"> Fornece acesso de baixo nível à interface de rede. O sistema operacional fornece a API socket que relaciona o programa com a rede. </p>
 
@@ -101,7 +101,7 @@
 <br><br>
 
 
-## Biblioteca RANDOM
+## Biblioteca Random
 
 <p align="center"> Implementa geradores de números pseudoaleatóprios para vária distribuições.
 Será utilizada no gerador de senhas para randomizar letras e números e a cada execução do programa gerar uma nova senha aleatória.</p>
@@ -110,7 +110,7 @@ Será utilizada no gerador de senhas para randomizar letras e números e a cada 
 
 <br><br>
 
-## HASH
+## Hash
 
 <p align="center">Identificador único gerado atravpes de um algoritmo que vai analisar byte a byte de determinado dados para gerar de forma única, um determinado código que só aquele arquivo terá. Se neste mesmo arquivos um único bit for alterado o hash gerado será diferente.</p> 
 
@@ -119,7 +119,7 @@ Será utilizada no gerador de senhas para randomizar letras e números e a cada 
 <br><br>
 
 
-## Biblioteca HASHLIB
+## Biblioteca Hashlib
 
 <p align="center"> Implementa uma interface comum para muitos algoritimos de hash seguro com SHA1, SHA256, MD5 entre outros.</p>
 
@@ -137,7 +137,7 @@ Será utilizada no gerador de senhas para randomizar letras e números e a cada 
 
 <br><br>
 
-## Biblioteca ipaddress
+## Biblioteca Ipaddress
 
 <p align="center"> Tem capacidade criar, manipular endereços IP do tipo IPv4, IPv6 e até redes inteiras.</p>
 
@@ -168,7 +168,7 @@ Será utilizada no gerador de senhas para randomizar letras e números e a cada 
 
 <br><br>
 
-## Biblioteca requests
+## Biblioteca Requests
 
 <p align="center"> Permite o envio de solicitações HTTP em Pyhton.</p>
 
