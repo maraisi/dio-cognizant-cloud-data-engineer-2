@@ -5,7 +5,7 @@
 
 <br>
 
-<p align="center">O <b>Dado</b> pode se uma representação simbólica, numérica ou textual qualquer. O *Dado* em si não possui referência e nenhuma característica de entendimento, sendo somente uma representação. Ex:</p>
+<p align="center">O <b>Dado</b> pode se uma representação simbólica, numérica ou textual qualquer. O 'dado' em si não possui referência e nenhuma característica de entendimento, sendo somente uma representação. Ex:</p>
 
 <pre align="center">
 <b>25</b> &mdash; o número é uma representação simbólica numérica.  
