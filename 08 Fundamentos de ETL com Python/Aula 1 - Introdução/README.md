@@ -26,7 +26,7 @@
 
 <br><br>
 
-# Ferramentas
+# Ferramentas Python ETL
 
 ![Apache Airflow](apache.png)
 
@@ -37,10 +37,6 @@
 <br>
 
 ![bonobo](bonobo.png)
-
-<br>
-
-![bubbles](bubbles.png)
 
 <br>
 
