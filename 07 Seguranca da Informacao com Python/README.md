@@ -162,6 +162,12 @@ Será utilizada no gerador de senhas para randomizar letras e números e a cada 
 
 <br><br>
 
+## Web Crawler
+
+<p align="center"> Um web crawler é uma ferramenta usada para encontrar, ler e indexar páginas de um site. É omo um robô que captyra informações de cada um dos links que encontra pela frente, cadastra e compreende o que é mais relevante (palavras-chave). São muito utilizados em levantamentos de informações em um Processo de Pentest.</p>
+
+<br><br>
+
 ## Biblioteca BeatifulSoup
 
 <p align="center"> Biblioteca de extração de dados de arquivos HTML e XML.</p>
@@ -171,5 +177,59 @@ Será utilizada no gerador de senhas para randomizar letras e números e a cada 
 ## Biblioteca Requests
 
 <p align="center"> Permite o envio de solicitações HTTP em Pyhton.</p>
+
+<br><br>
+
+## Biblioteca Operator
+
+<p align="center"> Exporta um conjunto de funções eficientes correspondentes aos operadores intrísecos do python como: <b> + - * / not and </b></p>
+
+<br><br>
+
+## Biblioteca Collections
+
+<p align="center"> Ajuda a preencher e manipular eficientemente as estruturas de dados como tuplas, dicionários e listas.</p>
+
+<br><br>
+
+## Biblioteca Phonenumbers
+
+<p align="center"> Fornece vários recursos como informações básicas, validação e outros tipos de manipulação de um número de telefone.</p>
+
+<br><br>
+
+## Biblioteca Ctypes
+
+<p align="center"> Fornece tipos de dados compatíveis com a linguagem C e permite funções de chamada em DLLs ou bibliotecas compartilhadas.</p>
+
+<br><br>
+
+## Biblioteca re
+
+<p align="center"> Permite operações com expressões regulares.</p>
+
+<br><br>
+
+## Biblioteca json
+
+<p align="center"> Fornece operação de codificação e decodificação JSON.</p>
+
+<br><br>
+
+## Biblioteca urllib.request import urlopen
+
+<p align="center"> Funções e classes que ajudam a abrir URLs.</p>
+
+<br><br>
+
+## Biblioteca webbrowser
+
+<p align="center"> Fornece uma interface de alto nível para permitir a exibição de documentos Web aos usuários.</p>
+
+<br><br>
+
+## Biblioteca tkinter
+
+<p align="center"> Fornece interface padrão do Python para o kit de ferramentas gráficas Tk.</p>
 
 <br><br>
