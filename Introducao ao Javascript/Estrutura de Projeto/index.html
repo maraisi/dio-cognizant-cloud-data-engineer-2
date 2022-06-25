@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Para importar o arquivo css é usado o código abaixo. O relacionamento é uma stylesheet e o link de referência (href) é a localização do arquivo css -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- O arquivo javascript é importando abaixo. Dependendo do script é mais interessante colocá-lo mais abaixo, antes do fechamento da tag html. Isso permite a redenrizar da página caso o script seja muito pesado 
+    <script src="assets/js/script.js"></script> -->
+    <title>teste</title>
+</head>
+<body>
+    <h1>Olá mundo!</h1>
+    
+    <br>
+    
+    <h2>DOM:</h2>
+    
+    <p>
+        DOM (Document Object Model) são os elementos que existem na página e a estrutura destas dentro da janela. É possivel manipular os elementos DOM através do console.<br><br>
+        Exemplo:
+    </p>
+   
+    <div id="codeblock" >
+        <code>
+            <p>> document.getElementsbyTagName('h1') </p>
+            <p>> var heading1 = document.getElementsByTagName('h1')[0] </p>
+            <p>> heading1</p>
+            <p id="cons_resp" >    &lt;h1&gt;Olá mundo!&lt;/h1&gt;</p>
+            <p>> heading1.style.color = 'red'</p>
+        </code>
+    </div>
+    
+    <br>
+    
+    <div id="proj">
+        <h3>1º Projeto Javascript - Contador</h3>
+        <br>
+        <div id="counter">
+            <button class="count" name="subtrair" onclick="decrement()">-</button>
+            <span id="currentNumber">0</span>
+            <button class="count" name="adicionar" onclick="increment()">+</button>
+        </div>
+    </div>
+
+    <br>
+
+    <div id="to_do">
+        <h3>2º Projeto Javascript - To-Do List</h3>
+        <br>
+        <form>
+            <input type="text" id="tarefa_input" placeholder="Digite aqui sua tarefa"/>
+            <button type="submit">Adicionar</button>
+        </form>
+    </div>
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
